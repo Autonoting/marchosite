@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+	<defs>
+		<image width="23" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAMAAAAmopZHAAAAAXNSR0IB2cksfwAAARRQTFRFKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtKSgtpsGL6gAAAFx0Uk5TADWc2PX51JAkCJ3+/9e0t+OBAsS6LQE+y6WZjgepejD9uQb2GZcyUXTV3viy8NvM67zazecR+62JRWhmHvfQChPm6nyuyFyhWwxqqwVx7+Lk/OlaZ6zHxqZhA6Q7d8JPAAAA0UlEQVR4nGNgIAcwMjGzsLKxc6CKcnJx8/Dy8QvwsAoKIQsL84iIAmkxcQkeSTGEuBSPNJQnI8sjBxeWV1CEK1JiU1aBsVV51BB61Xk0YExNLSS7ZLR1YExdEWS36enDWAaGyOJGEjCWsQmSo03NzGFMCx5LhLgVjzWMaWNrZw9jOzg6wdkMzjwunFBhVx43hF4xdx49D0+gqJcjD4+3D0JCyNePh9U/IJAnKFgSRYLBISQ0LDwi0p4hSpInFFkCDqIiyJDwxibOEBUdjVUcLwAAgUsZrEblySgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Header">
+		<g id="Menu_bar">
+			<g id="menu_icon">
+				<g id="Search">
+					<use id="search #1" href="#img1" x="-1" y="-2" />
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
