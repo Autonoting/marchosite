@@ -1,4 +1,5 @@
 $(function() {
+  $('.filter-price__input').ionRangeSlider()
   $('.top-slider__inner').slick({
     dots: true,
     arrows: false,
