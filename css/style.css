@@ -1,5 +1,6 @@
 @import url(d:\programming\Site\Ptojects\Curse0to1\marcho\node_modules\@fancyapps\fancybox\dist\jquery.fancybox.css);
 @import url(d:\programming\Site\Ptojects\Curse0to1\marcho\node_modules\rateyo\src\jquery.rateyo.css);
+@import url(d:\programming\Site\Ptojects\Curse0to1\marcho\node_modules\ion-rangeslider\css\ion.rangeSlider.css);
 @font-face {
   font-family: 'Quicksand-Medium';
   font-weight: 500;
@@ -37,17 +38,17 @@ body, a {
   font-weight: 500;
 }
 
-.footer-top__form-btn, .top-slider__link, .video-fashion__link, .product-item-sale .product-item__img-box::before, .menu__list-link, .footer-top__title, .info__item-title, .categories__link, .product-item__price, .blog__item-title, .modal__link, .modal__btn {
+.footer-top__form-btn, .top-slider__link, .video-fashion__link, .product-item-sale .product-item__img-box::before, .page-404__link, .menu__list-link, .footer-top__title, .info__item-title, .categories__link, .product-item__price, .blog__item-title, .modal__link, .modal__btn, .filter__title {
   font-family: 'Roboto-Regular', sans-serif;
   font-weight: 400;
 }
 
-.title, .menu__list-link:hover, .menu__list-link--active, .top-slider__title, .promo__clock-item span {
+.title, .menu__list-link:hover, .menu__list-link--active, .top-slider__title, .promo__clock-item span, .page-404__title {
   font-family: 'Roboto-Bold', sans-serif;
   font-weight: 700;
 }
 
-.footer-top__form-btn, .top-slider__link, .video-fashion__link, .product-item-sale .product-item__img-box::before {
+.footer-top__form-btn, .top-slider__link, .video-fashion__link, .product-item-sale .product-item__img-box::before, .page-404__link {
   background-color: #fe3e57;
   border: none;
   text-transform: uppercase;
@@ -322,10 +323,14 @@ a {
   color: inherit;
 }
 
+.header--404-page {
+  background-color: #f6f6f6;
+}
+
 .header {
   padding: 40px 0;
-  width: 1200px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .header__inner {
@@ -1213,5 +1218,100 @@ a {
 
 .modal__text {
   margin-bottom: 25px;
+}
+
+.page-404 {
+  padding: 110px 0 120px;
+}
+
+.page-404__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-404__content {
+  max-width: 570px;
+  width: 100%;
+}
+
+.page-404__title {
+  color: #28384f;
+  margin-bottom: 40px;
+  font-size: 48px;
+}
+
+.page-404__text {
+  margin-bottom: 55px;
+  max-width: 470px;
+}
+
+.page-404__link {
+  padding: 20px 35px;
+}
+
+.shop {
+  padding: 120px 0 105px;
+}
+
+.shop__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.shop__filters {
+  width: 370px;
+  margin-right: 30px;
+}
+
+.filter__item {
+  padding: 35px 30px 40px;
+  border: 1px solid #ececec;
+  margin-bottom: 40px;
+}
+
+.filter__title {
+  text-transform: uppercase;
+  color: #29282d;
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.filter-search__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.filter-search__input {
+  border: none;
+  background-color: #f6f6f6;
+  height: 50px;
+  width: 260px;
+  padding: 0 5px 0 15px;
+}
+
+.filter-search__btn {
+  border: none;
+  background-color: #fe3e57;
+  height: 50px;
+  width: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
