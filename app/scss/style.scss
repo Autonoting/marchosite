@@ -402,6 +402,9 @@
 }
 .product-item {
   max-width: 370px;
+  &.product-item--list{
+    max-width: 100%;
+  }
   &__img-box {
     margin-bottom: 25px;
     position: relative;
@@ -414,6 +417,7 @@
       transition: all 0.3s;
     }
   }
+
   &__link-box {
     position: absolute;
     left: 0;
@@ -891,22 +895,115 @@
   &__label {
     cursor: pointer;
     margin-bottom: 15px;
+    display: block;
     &:last-child {
       margin-bottom: 0px;
     }
   }
   &__input {
     @extend %checkbox-hidden;
-    &:checked+.filter-catrgory__checkbox {
+    &:checked+.filter-category__checkbox {
       background-color: $accent;
+      color: #fff;
     }
   }
   &__checkbox {
-    background-color: #f6f6f6;  
+    background-color: #f6f6f6;
     color: $title;
     display: flex;
     justify-content: space-between;
-    padding: 15px 20px;
+    padding: 16px 20px;
   }
+}
+.filter-popular {
+  &__label {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 10px 0;
+  }
+  &__input {
+    @extend %checkbox-hidden;
+    &:checked+.filter-popular__checkbox {
+      background-color: $accent;
+      border: 1px solid $accent;
+      color: #fff;
+    }
+  }
+  &__checkbox {
+    border: 1px solid $default;
+    // background-color: #f6f6f6;
+    padding: 10px 20px;
+  }
+}
+.shop-content {
+  width: 100%;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  &__filter {
+    border: 1px solid #ececec;
+    padding: 20px 25px 20px 30px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
+  &__filter-btn {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    margin-left: 15px;
+    text-align: start;
+    line-height: 0;
+    cursor: pointer;
+    &.shop-content__filter-btn--active {
+      path {
+        fill: $accent;
+      }
+    }
+  }
+  &__filter-buttons {
+    display: flex;
+    align-items: center;
+  }
+}
+.jq-selectbox__select {
+  animation: none;
+  height: 32px;
+  padding: 0 30px 0px;
+  border: none;
+  border-bottom-color: transparent;
+  border-radius: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  @extend %roboto-400;
+  min-width: max-content;
+  &:hover {
+    background: transparent;
+  }
+}
+.jq-selectbox__trigger {
+  border-left: none;
+  &-arrow {
+    top: 14px;
+    right: 12px;
+    width: 10px;
+    height: 5px;
+    border: none;
+    background-image: url('../images/icons/angl.svg')
+  }
+}
+.jq-selectbox li.selected {
+  background-color: $accent;
+  color: #FFF;
+}
+.jq-selectbox li:hover {
+  background-color: $accent;
+  color: #FFF;
 }
 @import'media';
